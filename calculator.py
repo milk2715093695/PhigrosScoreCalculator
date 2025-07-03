@@ -110,6 +110,6 @@ if __name__ == '__main__':
 
     if solutions:
         print(f"解的数量: {len(solutions)}")
-        print(f"随机的一组解: {random.choice(solutions)}")
+        print(f"随机的一组解(最大连击, Perfect, Good): {random.choice(solutions)}")
     else:
         print("无解")
